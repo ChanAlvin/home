@@ -1,0 +1,77 @@
+/*creating base uniform look*/
+body {
+	background-color:#d1ccc0;
+	color:#0c0b0b;
+	font-family:Verdana;
+}
+
+/*resizing for the intel cpu image on homepage due to its odd size*/
+#intel-img {
+	width:15%;
+}
+
+/*default sizing for all images*/
+img {
+	width:25%;
+}
+
+/*title styling; all about cpus, general info, ref, etc.*/
+h1 {
+	font-size:300%;
+	color:#778d73;
+	background-color:#aba58e;
+	font-family:Georgia;
+	text-align:center;
+	font-style:italic;
+}
+
+/*main text being resized to be slightly larger for clarity*/
+p {
+	font-size:130%;
+}
+
+/*heading styling*/
+h2 {
+	font-size:200%;
+}
+
+h2, a {
+	color:#c1796f;
+}
+
+/*top header links*/
+.header a, #backtotop {
+	color:#888471;
+	font-size:100%;
+}
+
+/*meant to make links to be more visible*/
+a {
+	font-size:150%;
+	font-style:italic;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#d1ccc0;
+	background-color:#888471;
+}
+
+/*box around contents for appearance*/
+.box {
+	width: 275px;
+	padding: 10px;
+	border: 3px solid gray;
+	margin: 0;
+}
+
+/*resizing and redetermining weight of table*/
+table {
+	width:50%;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+	border: 3px solid black;
+}
