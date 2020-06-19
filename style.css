@@ -26,7 +26,7 @@ h1 {
 }
 
 /*main text being resized to be slightly larger for clarity*/
-p {
+p, h3 {
 	font-size:130%;
 }
 
