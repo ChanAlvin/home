@@ -40,7 +40,7 @@ h2, a {
 }
 
 /*top header links*/
-.header a, #backtotop {
+.header a {
 	color:#888471;
 	font-size:100%;
 }
